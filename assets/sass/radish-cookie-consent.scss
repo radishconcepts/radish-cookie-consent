@@ -1,0 +1,106 @@
+.radish-cookie-settings-toggle {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 9999;
+
+  color: #fff;
+}
+
+.radish-cookie-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 100%;
+  z-index: 9999;
+
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+
+  .wrap {
+    padding: 10px 0;
+  }
+
+  .cookie-bar-title {
+    font-size: 120%;
+    font-weight: bold;
+  }
+
+  .cookie-bar-content,
+  .cookie-description,
+  .cookie-read-more {
+    font-size: 80%;
+  }
+
+  .cookie-bar-content,
+  .cookie-description {
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  .cookie-bar-buttons {
+    display: flex;
+
+    li {
+      margin: 0 20px 10px 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .cookie-read-more {
+    text-align: right;
+    margin: 0;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .cookie-bar-options {
+    label {
+      margin-left: 10px;
+      font-weight: bold;
+      display: inline-block;
+    }
+  }
+
+  .cookie-bar-settings {
+    display: none;
+  }
+
+  @media only screen and (max-width: 880px) {
+    .wrap {
+      padding: 10px;
+    }
+  }
+}
+
+.radish-cookie-bar,
+.radish-cookie-settings-toggle {
+  .button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid currentColor;
+
+    &.button-primary {
+      background-color: green;
+      border-color: green;
+    }
+
+    &.button-secondary {
+      background-color: #333;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
