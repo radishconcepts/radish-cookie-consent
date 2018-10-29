@@ -12,7 +12,7 @@ Requires PHP: 5.2.4
 
 == Description ==
 
-### 'Radish Concepts Cookie Consent: they way to manage all types of cookies on your website
+### 'Radish Concepts Cookie Consent: the way to manage all types of cookies on your website
 
 
 ### Bug reports
@@ -40,9 +40,9 @@ Bug reports for 'Radish Concepts Cookie Consent are [welcomed on GitHub](https:/
 1. Configure your settings
 1. Configure your templates if necessary, you can override the cookie-bar HTML by adding the template to your theme folder: 'wp-content/themes/your-theme/rcc/cookiebar.php'
 1. Customize the styles by adding CSS rules to the stylesheet of your own theme
-1. Convert your script-tags to: <script class="cookie-type-{type}" data-src="https:///www.example-domain.com/script.js"></script>
-1. Convert your objects/iframes-tags to: <iframe class="cookie-type-{type}" data-src="https:///www.example-domain.com/"></iframe>
-1. Convert your link-tags to: <link class="cookie-type-{type}" data-href="https:///www.example-domain.com/style.css" rel="stylesheet" type="text/css">
+1. Convert your script-tags to: <script class="cookie-type-{type}" data-src="https://www.example-domain.com/script.js"></script>
+1. Convert your objects/iframes-tags to: <iframe class="cookie-type-{type}" data-src="https://www.example-domain.com/"></iframe>
+1. Convert your link-tags to: <link class="cookie-type-{type}" data-href="https://www.example-domain.com/style.css" rel="stylesheet" type="text/css">
 1. Available cookie types are: 'functional', 'analytical', 'tracking', 'socialmedia' and 'advertising' But you could add your own groups
 1. You're done!
 

@@ -237,6 +237,8 @@ if ( ! class_exists( 'RCC_Admin' ) ) {
 				$html .= '<textarea class="rcc-input" name="rcc-cookie-description[' . $cookie_type . ']">' . $description . '</textarea><br />';
 				$html .= '</p>';
 
+                $html .= '<p><i><small>' . __( 'Example', 'rcc' ) . ': &lt;script class="cookie-type-' . $cookie_type . '" data-src="' . get_site_url() . '/script.js"&gt;&lt;/script&gt;</pre></small></i></p>';
+
 				$html .= '<hr />';
 			}
 
